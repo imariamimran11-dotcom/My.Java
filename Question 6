@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Trapezoid {
+ public static void main(String[] args) {
+ Scanner sc = new Scanner(System.in);
+ System.out.print("Enter side a: ");
+ double a = sc.nextDouble();
+ System.out.print("Enter side b: ");
+ double b = sc.nextDouble();
+ System.out.print("Enter height: ");
+ double h = sc.nextDouble();
+ double area = (a + b) * h / 2;
+ System.out.println("Area of Trapezoid = " + area);
+ }
+}
