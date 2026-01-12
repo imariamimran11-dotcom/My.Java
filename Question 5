@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Power {
+ public static void main(String[] args) {
+ Scanner sc = new Scanner(System.in);
+ System.out.print("Voltage: ");
+ double v = sc.nextDouble();
+ System.out.print("Current: ");
+ double i = sc.nextDouble();
+ double watts = v * i;
+ System.out.println("Power = " + watts + " Watts");
+ }
+}
